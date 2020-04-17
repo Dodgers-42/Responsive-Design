@@ -47,8 +47,50 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+body{
+	background-color: dodgerblue
+}
 h1{
-    color: red;
+	color: turquoise;
+	
+	
 }
 
+nav{
+	display: flex;
+	justify-content: space-evenly;
+	
+}
+
+nav div{
+	background-color: gold;
+}
+.top-content {
+	
+	text-align: center;
+}
+.middle-content {
+	display: flex;
+	justify-content: center;
+}
+.bottom-content {
+	display: flex;
+	justify-content: center;
+}
+.gallery {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	align-self: auto;
+	width: 70%
+
+}
+footer {
+	text-align: center;
+}
+footer div {
+	background-color: tomato;
+	board: solid;
+	width: auto;
+	margin: 0 auto;
+}
